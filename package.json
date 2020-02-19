@@ -13,7 +13,8 @@
     "react-app-rewired": "^2.1.5",
     "react-dom": "^16.12.0",
     "react-scripts": "3.4.0",
-    "prop-types": "latest"
+    "prop-types": "latest",
+    "immer": "latest"
   },
   "scripts": {
     "start": "react-app-rewired start",

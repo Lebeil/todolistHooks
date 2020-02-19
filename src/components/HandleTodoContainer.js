@@ -5,7 +5,7 @@ import { Todo } from '../models/Todo'
 
 const HandleTodoContainer = () => {
   const [text, setText] = useState('')
-  const [todos, setTodos] = useState([])
+  const [todos, setTodos] = useState([new Todo(0, 'useState')])
 
   const handleTextChange = (e) => {
     setText(e.target.value)

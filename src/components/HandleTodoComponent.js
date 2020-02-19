@@ -12,7 +12,7 @@ const HandleTodoComponent = (props) => {
       <Layout.Header style={{background: '#fff'}}>
         <PageHeader title="Todolist" />
       </Layout.Header>
-      <Layout.Content style={{minHeight: '92vh'}}>
+      <Layout.Content style={{minHeight: '46vh'}}>
         <Row>
           <Col span={12}
                offset={6}>
