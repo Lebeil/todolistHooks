@@ -1,10 +1,10 @@
 import React from 'react'
-import HandleTodoComponent from './HandleTodoComponent'
+import HandleTodoContainer from './components/HandleTodoContainer'
 
 function App () {
   return (
     <div>
-      <HandleTodoComponent />
+      <HandleTodoContainer />
     </div>
   )
 }
